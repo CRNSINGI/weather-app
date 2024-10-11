@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: seagreen;
+    background: url('images/background.jpg');
 }
 
 .container { 
@@ -121,7 +121,29 @@ body {
 
 }
 
+.weather-details .humidity {
+    padding-left: 20px;
+    justify-content: flex-start;
+}
+
+.weather-details .wind{
+    padding-left: 20px;
+    justify-content: flex-start;
+
+}
+
 .weather-details i { 
     font-size: 56px;
     margin-right: 10px;
+}
+
+.weather-details span { 
+    display: incline-block;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.weather-details p {
+    font-size: 14px;
+    font-weight: 500;
 }
