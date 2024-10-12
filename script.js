@@ -20,6 +20,7 @@ search.addEventListener('click', () => {
 
 
         if(json.cod == '404'){
+            cityHide.textContent = city;
             container.style.height = '400px';
             weatherBox.classList.remove('active');
             weatherDetails.classList.remove('active');
@@ -38,6 +39,10 @@ search.addEventListener('click', () => {
          const description = document.querySelector('.weather-box .description');
          const humidity = document.querySelector('.weather-details .humidity span');
          const wind = document.querySelector('.weather-details .wind span');
+
+         if() { 
+            
+         }
 
 
          switch (json.weather[0].main) {
