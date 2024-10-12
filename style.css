@@ -114,7 +114,17 @@ body {
 
 } 
 
+.weather-box .box .info-weather {
+    transform: translateY(-120%);
 
+}
+
+.container.active .weather-box .box .info-weather,
+.container.active .weather-details .humidity .info-humidity,
+.container.active .weather-details .wind  .info-wind {
+    transform: translateY(0%);
+    transition:  transform 1s ease;
+}
 
 .weather-box img { 
     width: 60%;
@@ -155,9 +165,15 @@ body {
     display: flex;
     align-items: center;
     width: 50%;
-    transform: translate(-100%);
 
+    
 
+}
+
+.weather-details .humidity .info-humidity,
+.weather-details .wind  .info-wind { 
+    transform: translateY(-100%);
+    overflow: hidden;
 }
 
 .weather-details.active .humidity,

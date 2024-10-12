@@ -55,7 +55,7 @@ search.addEventListener('click', () => {
 
 
             setTimeout(() => {
-                 container.classList.add('active');
+                 container.classList.remove('active');
 
             }, 2500);
 
