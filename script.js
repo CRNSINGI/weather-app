@@ -26,9 +26,33 @@ search.addEventListener('click', () => {
                 image.src = 'images/clear.png';
                 break;
 
+                case 'Rain':
+                image.src = 'images/rain.png';
+                break;
+
+                case 'Snow':
+                image.src = 'images/snow.png';
+                break;
+
+                case 'Clouds':
+                image.src = 'images/cloud.png';
+                break;
+
+                case 'Clear':
+                image.src = 'images/clear.png';
+                break;
+
+                case 'Mist':
+                image.src = 'images/mist.png';
+                break;
+
+                case 'Haze':
+                image.src = 'images/mist.png';
+                break;
+
 
                 default:
-                    break;
+                    image.src= 'images/cloud.png';
          }
 
 
