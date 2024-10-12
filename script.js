@@ -15,6 +15,12 @@ search.addEventListener('click', () => {
      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${APIKey}`).then(response => response.json()).then(json => { 
 
          const image = document.querySelector('.weather-box img');
+         const temperature = document.querySelector('.weather-box .temperature');
+         const description = document.querySelector('.weather-box .description');
+         const humidity = document.querySelector('.weather-details .humidity span');
+         const wind = document.querySelector('.weather-details .wind span');
+
+
 
      });
 
